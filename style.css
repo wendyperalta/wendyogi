@@ -1,0 +1,230 @@
+/*
+    Theme Name: Asana Child
+    Theme URI: http://highseastudio.com/demo/asana
+    Description: Asana premium theme
+    Author: HighSeaStudio
+    Author URI: http://highseastudio.com/
+    Version: 1.6.12
+    TextDomain: asana-child
+    Template: asana
+	License: GNU General Public License v3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.txt
+*/
+/*
+    Please, feel free to add your custom styles here
+*/
+
+.contactInfo p, .storyDesc p, .ourValues .wrapper p {
+  color: #333;
+}
+
+.storyDesc p {
+  font-size: 18px;
+}
+
+.mainItemDesc {   /*centers the main text in the home page */
+    position: relative;
+    right: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    padding: 130px 50px 0;
+    text-align: center;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.mainItemDesc p {
+  max-height:none;
+}
+
+
+.homeAboutSection .mainItemDesc{
+  overflow: hidden;
+}
+
+.homeGrid.homeAboutSection {
+    /*width: 770px;*/
+    width: 820px;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: 'Lato', sans-serif;
+    line-height: 33px;
+}
+
+.su-quote-inner.su-clearfix {
+    font-size: 20px;
+}
+
+.ourStory .su-quote-style-default {
+    width: 50%;
+    margin: 50px auto 0;
+}
+
+.ourStory {
+  padding: 70px 0;
+}
+
+.storyImg {
+  margin-top: 45px;
+}
+
+.ourValues .wrapper p {
+  font-size: 20px;
+}
+
+#footer {
+    position: relative;
+    bottom: 0;
+    clear: both;
+    display: block;
+    width: 100%;
+    height: auto;
+    padding: 50px 0 0;
+    margin: 0;
+    background-color: inherit;
+}
+
+.footerMenu {
+    position: relative;
+    left: 0;
+    top: 0;
+    margin-top: 30px;
+    width: auto;
+    margin-left: 0;
+    text-align: center;
+}
+
+.footerMenu + .copyright {
+    padding-top: 22px;
+}
+
+.uni-container {
+    padding-bottom: 0;
+}
+
+.footerSocial {
+    float: none;
+    width: 50%;
+    margin: 0 auto;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.footerSocial a {
+  float: none;
+  display: inline-block;
+}
+
+/******** WOO Commerce to disable hover effect on Products page**********/
+.woocommerce ul.products li.product h3 {
+    padding: 4.5em 0!important;
+    margin: 0;
+}
+
+.shopItemTextWrap h3 {
+    line-height: 24px;
+    color: #fff;
+    font-size: 20px!important;
+    font-weight: 400;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.shopItem .overlay {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+.woocommerce ul.products li.product a img{
+  display: none;
+}
+
+/* Removes product image and centers product info in product page */
+.summary.entry-summary.productDesc {
+    margin: 0 auto;
+}
+
+.productDesc {
+    float: none!important;
+}
+
+.woocommerce div.product div.summary, .woocommerce-page div.product div.summary {
+    float: none;
+    width: 48%;
+}
+
+.images.productGallery.clear {
+    display: none;
+}
+
+small.duration {
+    display: none;
+}
+
+.subscribeBox p {
+  font-weight: 400;
+}
+
+#header .headerWrap {
+    background: rgba(0,0,0,0.25);
+}
+.woocommerce .woocommerce-info{
+  background: #bd81c4 !important;
+}
+
+.contactGallery {
+    float: none;
+    width: 0px;
+    display: none;
+}
+
+.contactInfo {
+    float: none;
+    margin: 0 auto;
+    width: 219px;
+}
+
+.subscribeBox form input[type="text"].parsley-success {
+    color: #fff!important;
+    border: 2px solid #fff!important;
+}
+
+.singlePostWrap p {
+  color: #000;
+}
+
+.shareSinglePost a:hover {
+    background: #bd81c4;
+}
+
+/* Overriding padding-bottom media queries on Home page for middle section*/
+@media only screen and (max-width: 479px){
+  .mainItem{
+    padding-bottom: 0px;
+  }
+}
+
+@media only screen and (max-width: 767px){
+  .mainItem{
+    padding-bottom: 0px;
+  }
+}
+
+/*making Home page for middle section responsive*/
+@media only screen and (max-width: 860px){
+  .homeGrid.homeAboutSection{
+    width: 90%;
+  }
+}

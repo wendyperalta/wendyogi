@@ -1,0 +1,6 @@
+/* width: 770px starting at 870px width*/
+@media only screen and (max-width: 860px){
+  .homeGrid.homeAboutSection{
+    width: 527px;
+  }
+}
